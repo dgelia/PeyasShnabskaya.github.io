@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт</title>
+</head>
+<body>
+    <section>
+    <h1>Привет, это наш сайт. Все получилось!</h1>
+    <p>Здравствуйте! Это мой первый сайт! Горжусь своей работой</p>
+    <p>Не судите строго</p>
+    </section>
+    <section>
+        <h2>Таблицы</h2>
+        <table  border="1" cellspacing="0" cellpadding="10">
+            <tr>
+                <td colspan="2">ячейка 1</td>
+                <td>ячейка 3</td>
+
+            </tr>
+            <tr>
+                <td rowspan="2">ячейка 4</td>
+                <td>ячейка 5</td>
+                <td>ячейка 6</td>
+            </tr>
+            <tr>
+                <td>ячейка 8</td>
+                <td>ячейка 9</td>                
+            </tr>
+        </table>
+        <p></p>
+        <table  border="1" cellspacing="0" cellpadding="10">
+            <tr>
+                <td colspan="3">ячейка 1</td>
+
+            </tr>
+            <tr>
+                <td>ячейка 4</td>
+                <td rowspan="2">ячейка 5</td>
+                <td>ячейка 6</td>
+            </tr>
+            <tr>
+                <td>ячейка 8</td>
+                <td>ячейка 9</td>                
+            </tr>
+        </table>
+        <p></p>
+        <table  border="1" cellspacing="0" cellpadding="10">
+            <tr>
+                <td rowspan="3">ячейка 1</td>
+                <td>ячейка 2</td>
+                <td rowspan="3">ячейка 3</td>
+
+            </tr>
+            <tr>
+                <td>ячейка 5</td>
+            </tr>
+            <tr>
+                <td>ячейка 8</td>               
+            </tr>
+        </table>
+        <p></p>
+        <table  border="2" cellspacing="3" cellpadding="10">
+            <tr>
+                <td>text</td>
+                <td colspan="5" style="background-color:#57c516">text</td>
+                <td>text</td>
+                <td>text</td>
+
+            </tr>
+            <tr>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color:#57c516">text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>             
+            </tr>
+        </table>
+        <p></p>
+        <table border="1" cellspacing="0" cellpadding="3"  width="500">
+            <tr>
+               <td rowspan="2" align="center"><b>номер</b></td>
+               <td colspan="2" align="center"><b>теги</b></td> 
+            </tr>
+            <tr>
+                <td align="center"><b>тег</b></td>
+                <td align="center"><b>значение</b></td>
+            </tr>
+            <tr>
+                <td align="center">1</td>
+                <td align="center">p</td>
+                <td rowspan="4" align="center">для текста</td>
+            </tr>
+            <tr>
+                <td align="center">2</td>
+                <td align="center">a</td>
+            </tr>
+            <tr>
+                <td align="center">3</td>
+                <td align="center">b</td>
+            </tr>
+            <tr>
+                <td align="center">4</td>
+                <td align="center">i</td>
+            </tr>
+            <tr>
+                <td align="center">5</td>
+                <td align="center">table</td>
+                <td align="center">таблица</td>
+            </tr>
+            <tr>
+                <td align="center">6</td>
+                <td align="center">tr</td>
+                <td align="center">ряд таблицы</td>
+            </tr>
+            <tr>
+                <td align="center">7</td>
+                <td align="center">td</td>
+                <td rowspan="2" align="center">ячейки таблицы</td>
+            </tr>
+            <tr>
+                <td align="center">8</td>
+                <td align="center">th</td>
+            </tr>
+        </table>
+        <p></p>
+        <table border="1" cellspacing="0" cellpadding="4" width="650" >
+            <tr>
+                <td style="border: 2px solid #000" rowspan="9" align="center" width="50"><b>A</b></td>
+                <td style="border: 2px solid #000" rowspan="8" align="center" width="50"><b>B</b></td>
+                <td style="border: 2px solid #000" rowspan="7" align="center" width="50"><b>C</b></td>
+                <td style="border: 2px solid #000" rowspan="6" align="center" width="50"><b>D</b></td>
+                <td style="border: 2px solid #000" rowspan="5" align="center" width="50"><b>E</b></td>
+                <td style="border: 2px solid #000" rowspan="4" align="center" width="50"><b>F</b></td>
+                <td style="border: 2px solid #000" align="center" width="50"><b>AH</b></td>
+                <td style="border: 2px solid #000" rowspan="4" align="center" width="50"><b>H</b></td>
+                <td style="border: 2px solid #000" rowspan="5" align="center" width="50"><b>I</b></td>
+                <td style="border: 2px solid #000" rowspan="6" align="center" width="50"><b>J</b></td>
+                <td style="border: 2px solid #000" rowspan="7" align="center" width="50"><b>K</b></td>
+                <td style="border: 2px solid #000" rowspan="8" align="center" width="50"><b>L</b></td>
+                <td style="border: 2px solid #000" rowspan="10" align="center" width="50"><b>M</b></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid #000" align="center"><b>G</b></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid #000" align="center"><b>GH</b></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid #000" align="center"><b>N</b></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid #000" colspan="3" align="center"><b>O</b></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid #000" colspan="5" align="center"><b>P</b></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid #000" colspan="7" align="center"><b>Q</b></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid #000" colspan="2" align="center"><b>R</b></td>
+                <td style="border: 2px solid #000" align="center"><b>S</b></td>
+                <td style="border: 2px solid #000" align="center"><b>T</b></td>
+                <td style="border: 2px solid #000" align="center"><b>U</b></td>
+                <td style="border: 2px solid #000" align="center"><b>V</b></td>
+                <td style="border: 2px solid #000" align="center"><b>W</b></td>
+                <td style="border: 2px solid #000" colspan="2" align="center"><b>X</b></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid #000" colspan="11" align="center"><b>Y</b></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid #000" colspan="2" align="center"><b>Z</b></td>
+                <td style="border: 2px solid #000" align="center"><b>1</b></td>
+                <td style="border: 2px solid #000" align="center"><b>2</b></td>
+                <td style="border: 2px solid #000" align="center"><b>3</b></td>
+                <td style="border: 2px solid #000" align="center"><b>4</b></td>
+                <td style="border: 2px solid #000" align="center"><b>5</b></td>
+                <td style="border: 2px solid #000" align="center"><b>6</b></td>
+                <td style="border: 2px solid #000" align="center"><b>7</b></td>
+                <td style="border: 2px solid #000" align="center"><b>8</b></td>
+                <td style="border: 2px solid #000" align="center"><b>9</b></td>
+                <td style="border: 2px solid #000" align="center"><b>10</b></td>
+            </tr>
+        </table>
+
+    </section>
+    <section>
+        <H2>Полезные ссылки</H2>
+        <ol>
+            <li><a href="https://ru.wikipedia.org/" target="_blank">Википедия</a></li>
+            <li><a href="https://www.kinopoisk.ru/" target="_blank">Кинопоиск</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">Ютуб</a></li>
+            <li><a href="https://html5book.ru/" target="_blankша">HTML5book</a></li>
+        </ol>
+    </section>
+    <section>
+        <h2>Мои любимые картинки</h2>
+        <table border="0" cellspacing="6" cellpadding="3">
+            <tr>
+                <td><img src="G:\САЙТЫ\1.jpg"></td>
+                <td><img src="G:\САЙТЫ\2.jpg"></td>
+                <td><img src="G:\САЙТЫ\3.jpg"></td>
+                <td><img src="G:\САЙТЫ\4.jpg"></td>
+                <td><img src="G:\САЙТЫ\5.jpg"></td>
+            </tr>
+        </table>
+    </section>
+    
+</body>
+</html>
